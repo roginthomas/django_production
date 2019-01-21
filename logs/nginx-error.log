@@ -1,0 +1,1 @@
+2019/01/20 20:09:54 [error] 636#636: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
