@@ -1,7 +1,7 @@
 #!/bin/bash
 NAME="django_rog"                                 # Name of the application 
-DJANGODIR=/usr/apps/django_production/django_rog            # Django project directory 
-SOCKFILE=/usr/apps/django_production/django_rog/run/gunicorn.sock # we will communicte using this unix socket 
+DJANGODIR=/var/www/html/django_production/django_rog            # Django project directory 
+SOCKFILE=/var/www/html/django_production/django_rog/run/gunicorn.sock # we will communicte using this unix socket 
 USER=root                                       # the user to run as 
 GROUP=root                                    # the group to run as 
 NUM_WORKERS=3                                    # how many worker processes should Gunicorn spawn 
@@ -22,5 +22,5 @@ test -d $RUNDIR || mkdir -p $RUNDIR
   
 # Start your Django Unicorn 
 # Programs meant to be run under supervisor should not daemonize themselves (do not use --daemon) 
-exec gunicorn --bind=$SOCKFILE --name $NAME --workers $NUM_WORKERS --user=$USER --group=$GROUP ${DJANGO_WSGI_MODULE}:application
+exec gunicorn --bind=unix:$SOCKFILE --name $NAME --workers $NUM_WORKERS --user=$USER --group=$GROUP ${DJANGO_WSGI_MODULE}:application
  

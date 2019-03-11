@@ -18,17 +18,17 @@
 
 # Default server configuration
 #
-upstream django_rogin{
-	server unix:/var/www/html/django_production/django_rog/run/gunicorn.sock fail_timeout=0;
+upstream django_rogin1{
+	server unix:/var/www/html/django_production/django_rog1/run/gunicorn.sock fail_timeout=0;
 }
 
 server {
-	listen 8000;
+	listen 5000;
 
 	client_max_body_size 4G;
 
-	access_log /var/www/html/django_production/django_rog/logs/nginx-access.log;
-	error_log /var/www/html/django_production/django_rog/logs/nginx-error.log;
+	access_log /var/www/html/django_production/django_rog1/logs/nginx-access.log;
+	error_log /var/www/html/django_production/django_rog1/logs/nginx-error.log;
 	
 	# SSL configuration
 	#
@@ -54,11 +54,11 @@ server {
 	server_name _;
 	
 	location /static/ {
-		alias /var/www/html/django_production/django_rog/static/;
+		alias /var/www/html/django_production/django_rog1/static/;
 	}
 	
 	location /media/ {
-                alias /var/www/html/django_production/django_rog/media/;
+                alias /var/www/html/django_production/django_rog1/media/;
         }
 	
 	location / {
@@ -69,7 +69,7 @@ server {
 		# as directory, then fall back to displaying a 404.
 		#try_files $uri $uri/ =404;
 		if (!-f $request_filename) {
-			proxy_pass http://django_rogin;
+			proxy_pass http://django_rogin1;
 			break;
 		}
 	}

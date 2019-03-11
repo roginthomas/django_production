@@ -4,15 +4,11 @@ services:
     build:
       dockerfile: Dockerfile
       context: ./django_rog
-    volumes:
-      - ./django_rog:/usr/apps/django_production/django_rog
     ports:
-      - '3000:3000'
+      - '8000:8000'
   django_rog1:
     build:
       dockerfile: Dockerfile
       context: ./django_rog1
-    volumes:
-      - ./django_rog1:/usr/apps/django_production/django_rog1
     ports:
       - '5000:5000'

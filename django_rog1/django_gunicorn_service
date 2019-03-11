@@ -1,9 +1,9 @@
 #!/bin/bash
 NAME="django_rog1"                                 # Name of the application 
-DJANGODIR=/usr/apps/django_production/django_rog1            # Django project directory 
-SOCKFILE=localhost:8000 # we will communicte using this unix socket 
-USER=rogin                                       # the user to run as 
-GROUP=rogin                                    # the group to run as 
+DJANGODIR=/var/www/html/django_production/django_rog1            # Django project directory 
+SOCKFILE=/var/www/html/django_production/django_rog1/run/gunicorn.sock # we will communicte using this unix socket 
+USER=root                                       # the user to run as 
+GROUP=root                                    # the group to run as 
 NUM_WORKERS=3                                    # how many worker processes should Gunicorn spawn 
 DJANGO_SETTINGS_MODULE=django_rog1.settings            # which settings file should Django use 
 DJANGO_WSGI_MODULE=django_rog1.wsgi                    # WSGI module name 
@@ -22,10 +22,5 @@ test -d $RUNDIR || mkdir -p $RUNDIR
   
 # Start your Django Unicorn 
 # Programs meant to be run under supervisor should not daemonize themselves (do not use --daemon) 
-exec gunicorn ${DJANGO_WSGI_MODULE}:application \ 
- --name $NAME \ 
- --workers $NUM_WORKERS \ 
- --user=$USER --group=$GROUP \ 
- --bind=unix:$SOCKFILE \ 
- --log-level=debug \ 
- --log-file=- 
+exec gunicorn --bind=unix:$SOCKFILE --name $NAME --workers $NUM_WORKERS --user=$USER --group=$GROUP ${DJANGO_WSGI_MODULE}:application
+ 

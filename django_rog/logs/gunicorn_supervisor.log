@@ -1,0 +1,1760 @@
+Starting django_rog as rogin
+[2019-03-11 12:40:36 +0000] [15653] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:40:37 +0000] [15659] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:40:39 +0000] [15672] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:40:42 +0000] [15685] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:41:56 +0000] [15786] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:41:58 +0000] [15796] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:00 +0000] [15814] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:03 +0000] [15826] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:08 +0000] [15842] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:13 +0000] [15855] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:20 +0000] [15871] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:27 +0000] [15885] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:36 +0000] [15902] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:45 +0000] [15917] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:42:55 +0000] [15939] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:02 +0000] [15965] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:03 +0000] [15971] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:05 +0000] [15981] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:08 +0000] [15993] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:13 +0000] [16009] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:18 +0000] [16021] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:24 +0000] [16033] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:29 +0000] [16049] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:31 +0000] [16055] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:33 +0000] [16068] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:37 +0000] [16124] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:38 +0000] [16134] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:39 +0000] [16145] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:40 +0000] [16152] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:43 +0000] [16169] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:46 +0000] [16181] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:50 +0000] [16194] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:43:56 +0000] [16209] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:02 +0000] [16225] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:09 +0000] [16245] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:17 +0000] [16259] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:24 +0000] [16272] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:26 +0000] [16288] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:28 +0000] [16301] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:31 +0000] [16314] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:36 +0000] [16327] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:41 +0000] [16339] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:47 +0000] [16354] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:44:54 +0000] [16367] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:45:02 +0000] [16385] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:45:12 +0000] [16403] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:45:22 +0000] [16415] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:45:48 +0000] [16518] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:45:50 +0000] [16540] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:45:52 +0000] [16554] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:45:55 +0000] [16568] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:46:00 +0000] [16588] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:46:05 +0000] [16600] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:46:12 +0000] [16613] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:46:19 +0000] [16627] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:46:27 +0000] [16667] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:46:36 +0000] [16688] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 12:46:39 +0000] [16704] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 13:01:34 +0000] [17137] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 13:01:35 +0000] [17144] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 13:01:37 +0000] [17159] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as rogin
+[2019-03-11 13:01:40 +0000] [17171] [INFO] Starting gunicorn 19.7.1
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    load_entry_point('gunicorn==19.7.1', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 203, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 198, in run
+    self.start()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 157, in start
+    self.LISTENERS = sock.create_sockets(self.cfg, self.log, fds)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 180, in create_sockets
+    sock = sock_type(addr, conf, log)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 117, in __init__
+    super(UnixSocket, self).__init__(addr, conf, log, fd=fd)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 32, in __init__
+    self.sock = self.set_options(sock, bound=bound)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 49, in set_options
+    self.bind(sock)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/sock.py", line 125, in bind
+    util.chown(self.cfg_addr, self.conf.uid, self.conf.gid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 197, in chown
+    os.chown(path, uid, gid)
+OSError: [Errno 1] Operation not permitted: '/var/www/html/django_production/django_rog/run/gunicorn.sock'
+Starting django_rog as root
+[2019-03-11 13:45:15 +0000] [17744] [INFO] Starting gunicorn 19.7.1
+[2019-03-11 13:45:15 +0000] [17744] [INFO] Listening at: unix:/var/www/html/django_production/django_rog/run/gunicorn.sock (17744)
+[2019-03-11 13:45:15 +0000] [17744] [INFO] Using worker: sync
+[2019-03-11 13:45:15 +0000] [17751] [INFO] Booting worker with pid: 17751
+[2019-03-11 13:45:15 +0000] [17753] [INFO] Booting worker with pid: 17753
+[2019-03-11 13:45:15 +0000] [17754] [INFO] Booting worker with pid: 17754
+[2019-03-11 13:45:31 +0000] [17744] [INFO] Handling signal: term
+[2019-03-11 08:15:31 +0000] [17753] [INFO] Worker exiting (pid: 17753)
+[2019-03-11 08:15:31 +0000] [17751] [INFO] Worker exiting (pid: 17751)
+[2019-03-11 08:15:31 +0000] [17754] [INFO] Worker exiting (pid: 17754)
+[2019-03-11 13:45:31 +0000] [17744] [INFO] Shutting down: Master
+Starting django_rog as root
+[2019-03-11 13:45:51 +0000] [17868] [INFO] Starting gunicorn 19.7.1
+[2019-03-11 13:45:51 +0000] [17868] [INFO] Listening at: unix:/var/www/html/django_production/django_rog/run/gunicorn.sock (17868)
+[2019-03-11 13:45:51 +0000] [17868] [INFO] Using worker: sync
+[2019-03-11 13:45:51 +0000] [17875] [INFO] Booting worker with pid: 17875
+[2019-03-11 13:45:51 +0000] [17877] [INFO] Booting worker with pid: 17877
+[2019-03-11 13:45:52 +0000] [17879] [INFO] Booting worker with pid: 17879
+[2019-03-11 13:46:01 +0000] [17868] [INFO] Handling signal: term
+[2019-03-11 08:16:01 +0000] [17879] [INFO] Worker exiting (pid: 17879)
+[2019-03-11 08:16:01 +0000] [17875] [INFO] Worker exiting (pid: 17875)
+[2019-03-11 08:16:01 +0000] [17877] [INFO] Worker exiting (pid: 17877)
+[2019-03-11 13:46:01 +0000] [17868] [INFO] Shutting down: Master
